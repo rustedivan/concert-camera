@@ -13,10 +13,22 @@ class ViewController: UIViewController {
 	@IBOutlet weak var cameraOutput: GPUImageView!
 	var videoCamera: GPUImageVideoCamera = GPUImageVideoCamera(sessionPreset: AVCaptureSessionPreset1280x720,
 															  cameraPosition: AVCaptureDevicePosition.Back);
-
+	var edgeFilter: GPUImagePrewittEdgeDetectionFilter!
+	var colorCombiner: GPUImageMaskFilter!
+	
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		videoCamera.addTarget(cameraOutput)
+		
+		edgeFilter = GPUImagePrewittEdgeDetectionFilter()
+		colorCombiner = GPUImageMaskFilter()
+		
+		videoCamera.addTarget(edgeFilter)
+		
+		videoCamera.addTarget(colorCombiner)
+		edgeFilter.addTarget(colorCombiner)
+		
+		colorCombiner.addTarget(cameraOutput)
+		
 		videoCamera.startCameraCapture()
 	}
 
