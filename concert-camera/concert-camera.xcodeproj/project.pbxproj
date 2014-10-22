@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		201A8D3D19F79372000D7045 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201A8D3C19F79372000D7045 /* AppDelegate.swift */; };
+		201A8D3F19F79372000D7045 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201A8D3E19F79372000D7045 /* ViewController.swift */; };
+		201A8D4219F79372000D7045 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 201A8D4019F79372000D7045 /* Main.storyboard */; };
+		201A8D4419F79372000D7045 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 201A8D4319F79372000D7045 /* Images.xcassets */; };
+		201A8D4719F79372000D7045 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 201A8D4519F79372000D7045 /* LaunchScreen.xib */; };
+		201A8D5319F79372000D7045 /* concert_cameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201A8D5219F79372000D7045 /* concert_cameraTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		201A8D4D19F79372000D7045 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 201A8D2F19F79371000D7045 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 201A8D3619F79371000D7045;
+			remoteInfo = "concert-camera";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		201A8D3719F79371000D7045 /* concert-camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "concert-camera.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		201A8D3B19F79372000D7045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		201A8D3C19F79372000D7045 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		201A8D3E19F79372000D7045 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		201A8D4119F79372000D7045 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		201A8D4319F79372000D7045 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		201A8D4619F79372000D7045 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		201A8D4C19F79372000D7045 /* concert-cameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "concert-cameraTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		201A8D5119F79372000D7045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		201A8D5219F79372000D7045 /* concert_cameraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = concert_cameraTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		201A8D3419F79371000D7045 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		201A8D4919F79372000D7045 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		201A8D2E19F79371000D7045 = {
+			isa = PBXGroup;
+			children = (
+				201A8D3919F79371000D7045 /* concert-camera */,
+				201A8D4F19F79372000D7045 /* concert-cameraTests */,
+				201A8D3819F79371000D7045 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		201A8D3819F79371000D7045 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				201A8D3719F79371000D7045 /* concert-camera.app */,
+				201A8D4C19F79372000D7045 /* concert-cameraTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		201A8D3919F79371000D7045 /* concert-camera */ = {
+			isa = PBXGroup;
+			children = (
+				201A8D3C19F79372000D7045 /* AppDelegate.swift */,
+				201A8D3E19F79372000D7045 /* ViewController.swift */,
+				201A8D4019F79372000D7045 /* Main.storyboard */,
+				201A8D4319F79372000D7045 /* Images.xcassets */,
+				201A8D4519F79372000D7045 /* LaunchScreen.xib */,
+				201A8D3A19F79372000D7045 /* Supporting Files */,
+			);
+			path = "concert-camera";
+			sourceTree = "<group>";
+		};
+		201A8D3A19F79372000D7045 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				201A8D3B19F79372000D7045 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		201A8D4F19F79372000D7045 /* concert-cameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				201A8D5219F79372000D7045 /* concert_cameraTests.swift */,
+				201A8D5019F79372000D7045 /* Supporting Files */,
+			);
+			path = "concert-cameraTests";
+			sourceTree = "<group>";
+		};
+		201A8D5019F79372000D7045 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				201A8D5119F79372000D7045 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		201A8D3619F79371000D7045 /* concert-camera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 201A8D5619F79372000D7045 /* Build configuration list for PBXNativeTarget "concert-camera" */;
+			buildPhases = (
+				201A8D3319F79371000D7045 /* Sources */,
+				201A8D3419F79371000D7045 /* Frameworks */,
+				201A8D3519F79371000D7045 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "concert-camera";
+			productName = "concert-camera";
+			productReference = 201A8D3719F79371000D7045 /* concert-camera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		201A8D4B19F79372000D7045 /* concert-cameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 201A8D5919F79372000D7045 /* Build configuration list for PBXNativeTarget "concert-cameraTests" */;
+			buildPhases = (
+				201A8D4819F79372000D7045 /* Sources */,
+				201A8D4919F79372000D7045 /* Frameworks */,
+				201A8D4A19F79372000D7045 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				201A8D4E19F79372000D7045 /* PBXTargetDependency */,
+			);
+			name = "concert-cameraTests";
+			productName = "concert-cameraTests";
+			productReference = 201A8D4C19F79372000D7045 /* concert-cameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		201A8D2F19F79371000D7045 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Ivan Milles";
+				TargetAttributes = {
+					201A8D3619F79371000D7045 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					201A8D4B19F79372000D7045 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 201A8D3619F79371000D7045;
+					};
+				};
+			};
+			buildConfigurationList = 201A8D3219F79371000D7045 /* Build configuration list for PBXProject "concert-camera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 201A8D2E19F79371000D7045;
+			productRefGroup = 201A8D3819F79371000D7045 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				201A8D3619F79371000D7045 /* concert-camera */,
+				201A8D4B19F79372000D7045 /* concert-cameraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		201A8D3519F79371000D7045 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				201A8D4219F79372000D7045 /* Main.storyboard in Resources */,
+				201A8D4719F79372000D7045 /* LaunchScreen.xib in Resources */,
+				201A8D4419F79372000D7045 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		201A8D4A19F79372000D7045 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		201A8D3319F79371000D7045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				201A8D3F19F79372000D7045 /* ViewController.swift in Sources */,
+				201A8D3D19F79372000D7045 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		201A8D4819F79372000D7045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				201A8D5319F79372000D7045 /* concert_cameraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		201A8D4E19F79372000D7045 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 201A8D3619F79371000D7045 /* concert-camera */;
+			targetProxy = 201A8D4D19F79372000D7045 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		201A8D4019F79372000D7045 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				201A8D4119F79372000D7045 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		201A8D4519F79372000D7045 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				201A8D4619F79372000D7045 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		201A8D5419F79372000D7045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		201A8D5519F79372000D7045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		201A8D5719F79372000D7045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "concert-camera/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		201A8D5819F79372000D7045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "concert-camera/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		201A8D5A19F79372000D7045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "concert-cameraTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/concert-camera.app/concert-camera";
+			};
+			name = Debug;
+		};
+		201A8D5B19F79372000D7045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "concert-cameraTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/concert-camera.app/concert-camera";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		201A8D3219F79371000D7045 /* Build configuration list for PBXProject "concert-camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				201A8D5419F79372000D7045 /* Debug */,
+				201A8D5519F79372000D7045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		201A8D5619F79372000D7045 /* Build configuration list for PBXNativeTarget "concert-camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				201A8D5719F79372000D7045 /* Debug */,
+				201A8D5819F79372000D7045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		201A8D5919F79372000D7045 /* Build configuration list for PBXNativeTarget "concert-cameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				201A8D5A19F79372000D7045 /* Debug */,
+				201A8D5B19F79372000D7045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 201A8D2F19F79371000D7045 /* Project object */;
+}
