@@ -10,10 +10,14 @@ import UIKit
 import GPUImage
 
 class ViewController: UIViewController {
+	@IBOutlet weak var cameraOutput: GPUImageView!
+	var videoCamera: GPUImageVideoCamera = GPUImageVideoCamera(sessionPreset: AVCaptureSessionPreset1280x720,
+															  cameraPosition: AVCaptureDevicePosition.Back);
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		// Do any additional setup after loading the view, typically from a nib.
+		videoCamera.addTarget(cameraOutput)
+		videoCamera.startCameraCapture()
 	}
 
 	override func didReceiveMemoryWarning() {
